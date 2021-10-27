@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Curso de Sistemas Operativos</h1>
         </header>
         <p className="App-intro">
-          Universidad Mariano Galvez, Curso de SO, Elio Raymundo
+          Universidad Mariano Galvez, Curso de SO, Elio, Raul, Debora, Gabriela
 
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
