@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import iphone from './Images/Iphone13.jpg';
 import airpods from './Images/Airpods.jpg';
 import xiaomi from './Images/xiaomi.jpg';
+import facebook from './Images/facebook.png';
 import './css/App.css';
 
 class App extends Component {
@@ -125,7 +126,34 @@ class App extends Component {
               </ul>
             </nav>
 
-            <br/>
+
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">¿Quienes somos?</h1>
+                <p class="lead">Somos estudiantes de la Universidad Mariano Galvez de Guatemala, sede San Juan Sacatepequez. El equipo esta conformado por los siguientes integrantes:</p>
+                <p>• Elio Isai Raymundo Diaz</p>
+                <p>• Gabriela Lizeth Peinado Ajcip</p>
+                <p>• Lester Raul Ulizar Toj Chub</p>
+                <p>• Debora Fernanda Top Vargas</p>
+              </div>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">¿De sónde somos?</h1>
+                <p class="lead">Somos del municipio de San Juan Sacatepequez del Departamento de Guatemala.</p>
+              </div>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">¿Como nos puedes contactar?</h1>
+                <p class="lead">Para comunicarte con nosotros puedes hacerlo por medio del siguiente correo electronico: team_egrd@egrd.com</p>
+                <p class="lead">Tambien puedes seguirnos en nuestra pagina de facebook:</p>
+                <img src={facebook} className="App-facebook"/>facebook.com/team_egrd
+              </div>
+            </div>
+
 
             <div className="App-info"><br></br><br></br>
                  
