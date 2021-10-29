@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background: transparent linear-gradient(180deg, #5499C3 0%, #0E2939 100%) 0% 0% no-repeat padding-box;
+  height: 190px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header-productos {
+  background: transparent linear-gradient(180deg, #5499C3 0%, #0E2939 100%) 0% 0% no-repeat padding-box;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer{
+  background-color: #0E2939;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.App-white {
+  height: 300px;
+}
+
+.App-blue {
+  background-color: #E7ECEF;
+  height: 300px;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-menu{
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.App-intro {
+  font-size: large;
+  color: #2E3E48;
+}
+
+.App-vision{
+  color: #0E2939;
+  margin-top: 4%;
+}
+
+.App-mision{
+  display: flex;
+  align-items:center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-Iphone{
+  width: 20%;
+  float: left;
+  margin-left: 18%;
+}
+
+.App-Airpods{
+  width: 20%;
+  float: right;
+  margin-right: 18%;
+}
+
+.App-info{
+  height: 150%;
+}
+
+.App-titulo-productos{
+  color: #0E2939;
+  margin-top: 4%;
+}
+
+.App-texto {
+  margin-top: 50%;
+  font-size: large;
+  color: #2E3E48;
+}
+
+.App-xiaomi{
+  width: 20%;
+  margin-top: 2%;
+}
+
+.App-texto-iphone{
+  margin-top: 15%;
+  margin-right: 45%;
+  cursor: pointer;
+  color:#0E2939;
+}
+
+.App-texto-airpods{
+  margin-left: 45%;
+  margin-top: -2.5%;
+  cursor: pointer;
+  color:#0E2939;
+}
+
+.App-texto-xiaomi{
+  margin-top: 1.2%;
+  cursor: pointer;
+  color:#0E2939;
+}
+
+.navbarclass{
+  float: right;
+}
